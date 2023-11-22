@@ -1,0 +1,243 @@
+#animation {
+  animation-name: fluid;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border: 2px solid gray;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes fluid {
+  0% {
+    border-radius: 42% 46% 48% 41%;
+  }
+  30% {
+    border-radius: 49% 48% 47% 46%;
+  }
+
+  50% {
+    border-radius: 45% 49% 50% 44%;
+  }
+  65% {
+    border-radius: 50% 50% 43% 48%;
+  }
+  75% {
+    border-radius: 42% 46% 48% 41%;
+  }
+  100% {
+    border-radius: 47% 42% 44% 50%;
+  }
+}
+
+/* 
+#daa520 amber
+#ff00ff magenta
+#9acd32 green
+#fa5b0f orange 2
+#72b626 green 2
+#ffb400 orange 3 */
+#one {
+  color: #007bff;
+}
+#two {
+  color: #ff5d56;
+}
+#three {
+  color: #daa520;
+}
+#four {
+  color: #ff00ff;
+}
+#five {
+  color: #9acd32;
+}
+
+#six {
+  color: #fa5b0f;
+}
+
+#seven {
+  color: #72b626;
+}
+
+#eight {
+  color: #ffb400;
+}
+
+#oone:before {
+  background-color: #007bff;
+}
+
+#ttwo:before {
+  background-color: #ff5d56;
+}
+
+#tthree:before {
+  background-color: #daa520;
+}
+#ffour:before {
+  background-color: #ff00ff;
+}
+#ffive:before {
+  background-color: #9acd32;
+}
+#ssix:before {
+  background-color: #fa5b0f;
+}
+#sseven:before {
+  background-color: #72b626;
+}
+#eeight:before {
+  background-color: #ffb400;
+}
+
+#ooneea {
+  border-color: #007bff;
+}
+
+#ttwoea {
+  border-color: #ff5d56;
+}
+
+#tthreeea {
+  border-color: #daa520;
+}
+#ffourea {
+  border-color: #ff00ff;
+}
+#ffiveea {
+  border-color: #9acd32;
+}
+#ssixea {
+  border-color: #fa5b0f;
+}
+#ssevenea {
+  border-color: #72b626;
+}
+#eeightea {
+  border-color: #ffb400;
+}
+
+#oonee:before {
+  border-color: #007bff;
+}
+
+#ttwoe:before {
+  border-color: #ff5d56;
+}
+
+#tthreee:before {
+  border-color: #daa520;
+}
+#ffoure:before {
+  border-color: #ff00ff;
+}
+#ffivee:before {
+  border-color: #9acd32;
+}
+#ssixe:before {
+  border-color: #fa5b0f;
+}
+#ssevene:before {
+  border-color: #72b626;
+}
+#eeighte:before {
+  border-color: #ffb400;
+}
+
+#ooone {
+  background-color: #007bff;
+}
+
+#ottwo {
+  background-color: #ff5d56;
+}
+
+#otthree {
+  background-color: #daa520;
+}
+#offour {
+  background-color: #ff00ff;
+}
+#offive {
+  background-color: #9acd32;
+}
+#ossix {
+  background-color: #fa5b0f;
+}
+#osseven {
+  background-color: #72b626;
+}
+#oeeight {
+  background-color: #ffb400;
+}
+
+#oone:hover::after {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+#ttwo:hover::after {
+  color: #ff5d56;
+  border-color: #ff5d56;
+}
+
+#tthree:hover::after {
+  color: #daa520;
+  border-color: #daa520;
+}
+#ffour:hover::after {
+  color: #ff00ff;
+  border-color: #ff00ff;
+}
+#ffive:hover::after {
+  color: #9acd32;
+  border-color: #9acd32;
+}
+#ssix:hover::after {
+  color: #fa5b0f;
+  border-color: #fa5b0f;
+}
+#sseven:hover::after {
+  color: #72b626;
+  border-color: #72b626;
+}
+#eeight:hover::after {
+  color: #ffb400;
+  border-color: #ffb400;
+}
+
+a.active #oone::after {
+  color: #007bff;
+  border-left: 4px solid #007bff;
+}
+
+a.active #ttwo::after {
+  color: #ff5d56;
+  border-left: 4px solid #ff5d56;
+}
+a.active #tthree::after {
+  color: #daa520;
+  border-left: 4px solid #daa520;
+}
+a.active #ffour::after {
+  color: #ff00ff;
+  border-left: 4px solid #ff00ff;
+}
+a.active #ffive::after {
+  color: #9acd32;
+  border-left: 4px solid #9acd32;
+}
+
+a.active #ssix::after {
+  color: #fa5b0f;
+  border-left: 4px solid #fa5b0f;
+}
+a.active #sseven::after {
+  color: #72b626;
+  border-left: 4px solid #72b626;
+}
+a.active #eeight::after {
+  color: #ffb400;
+  border-left: 4px solid #ffb400;
+}

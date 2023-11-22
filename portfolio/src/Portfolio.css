@@ -1,0 +1,6 @@
+#one::before {
+  background-color: blue;
+}
+#two::before {
+  background-color: yellow;
+}

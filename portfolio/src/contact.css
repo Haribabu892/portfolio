@@ -1,0 +1,41 @@
+.input:focus ~ label,
+.input:not(:placeholder-shown).input:not(:focus) ~ label {
+  transform: translateY(-16px);
+
+  display: block;
+
+  font-size: 10px;
+}
+
+label {
+  transition: transform 0.1s ease-out;
+}
+
+div label:hover {
+  cursor: text;
+}
+
+#textarea:focus ~ label,
+#textarea:not(:placeholder-shown)#textarea:not(:focus) ~ label {
+  transform: translateY(-20px);
+
+  display: block;
+
+  font-size: 10px;
+}
+
+.button-active {
+  box-shadow: 3px 3px 15px gray, -3px -3px 15px gray;
+}
+.button-active:active {
+  box-shadow: 2px 2px 10px gray, -2px -2px 10px gray;
+}
+
+.svg-animate {
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.svg-animate:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
